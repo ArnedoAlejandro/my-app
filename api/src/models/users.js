@@ -6,10 +6,15 @@ const usersSchema = new Schema({
     },
     email:{
         type: String,
+        required: true
     },
     role: {
         type: Number,
         default: 1
+    },
+    password: {
+        type : String,
+        required: true
     },
     active:{
         type: Boolean,
