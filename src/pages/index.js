@@ -1,10 +1,10 @@
-
+import Layout from "../../components/Layout"
 
 
 export default function Home() {
   return (
-      <div>
-        ESTO ES UN INDEX
+      <div className="">
+        <Layout />
       </div>
   )
 }
